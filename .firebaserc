@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "catoey-e46db"
+  },
+  "targets": {
+    "catoey-e46db": {
+      "hosting": {
+        "catoey": [
+          "catoey"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
