@@ -36,7 +36,7 @@ const App = () => {
             <div className='text-2xl font-bold text-center mb-4'>
               Step
             </div>
-            <div className="text-3xl font-bold text-center mb-4 p-5 bg-green-500 rounded-lg">{numberToRoman(step)}</div>
+            <div className="text-3xl font-bold text-center mb-4 p-5 bg-green-500 rounded-lg">{numberToRoman(Math.ceil(step/2))}</div>
             <div className='flex flex-col'>
               <button className='text-lg rounded-t-xl text-center bg-lime-400 hover:bg-lime-500 p-2' onClick={() => { nextStep() }}>Next Step</button>
               <button className='text-lg rounded-b-xl text-center bg-red-400 hover:bg-red-500 p-2' onClick={() => { revertStep() }}>Revert</button>
